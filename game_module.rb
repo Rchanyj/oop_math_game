@@ -3,10 +3,10 @@ module MathGame
   class Player
     attr_accessor :name
 
-    @@lives = 3
-    def lives
-      @@lives
-    end
+  #  @@lives = 3
+  #  def lives
+  #    @@lives
+  #  end
 
   end
 
@@ -19,7 +19,7 @@ module MathGame
 
   end
 
-  def MathGame.math_question(player1, player2)
+  def MathGame.math_question(player)
     #Stop loop when ONE player's life hits 0.
     #while player.lives > 0, MathGame.add_random
     lives_remaining = 3
