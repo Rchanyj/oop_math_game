@@ -2,12 +2,6 @@ module MathGame
 
   class Player
     attr_accessor :name
-
-  #  @@lives = 3
-  #  def lives
-  #    @@lives
-  #  end
-
   end
 
   class Turn
@@ -63,11 +57,8 @@ module MathGame
         puts "#{player1_name} wins with a score of #{player1_lives}/3!"
       end
       puts "----GAME OVER----"
-
     end
 
   end
-
-
 
 end
