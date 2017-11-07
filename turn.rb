@@ -4,7 +4,7 @@ require './player2'
 
 new_game = MathGame::Turn.new
 
-puts player1.name
+puts MathGame::Player:player1.name #How to access?
 
 
 

@@ -18,7 +18,7 @@ module MathGame
       player1_lives = 3
       player2_lives = 3
       puts "----LET'S DO THIS!----"
-      while player1_lives > 0 && player2_lives > 0
+      while player_lives > 0
         MathGame.math_question(player1, player1_lives)
         MathGame.math_question(player2, player2_lives)
       end
@@ -29,7 +29,7 @@ module MathGame
 
   def MathGame.math_question(player, lives)
 
-    lives_remaining = lives
+    player_lives = lives
     player_name = player.name
     number1 = rand(1..20)
     number2 = rand(1..20)
