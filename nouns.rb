@@ -1,3 +1,5 @@
+MathGame module
+
 class Player
   #Each player can enter responses via command lines
   #Each player has 3 lives
